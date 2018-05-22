@@ -1,0 +1,21 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-runtime",
+    "transform-do-expressions",
+    "transform-decorators-legacy",
+    "transform-class-properties"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "react-hot-loader/babel",
+        "transform-runtime",
+        "transform-do-expressions",
+        "transform-decorators-legacy",
+        "transform-class-properties"
+      ]
+    }
+  }
+}
